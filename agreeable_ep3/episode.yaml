@@ -1,0 +1,91 @@
+title: "Strategic Partnership"
+output: "episode_03.mp3"
+
+voices:
+  NARRATOR:
+    backend: elevenlabs
+    voice_id: nPczCjzI2devNBz1zQrb
+    model_id: eleven_multilingual_v2
+    settings: {stability: 0.70, similarity_boost: 0.70, style: 0.0, use_speaker_boost: true}
+  MARTA:
+    backend: elevenlabs
+    voice_id: Xb7hH8MSUJpSbSDYk0k2
+    model_id: eleven_multilingual_v2
+    settings: {stability: 0.65, similarity_boost: 0.70, style: 0.0, use_speaker_boost: true}
+  DIETER:
+    backend: elevenlabs
+    voice_id: JBFqnCBsd6RMkjVDRZzb
+    model_id: eleven_multilingual_v2
+    settings: {stability: 0.40, similarity_boost: 0.75, style: 0.30, use_speaker_boost: true}
+  YUSUF:
+    backend: elevenlabs
+    voice_id: TX3LPaxmHKxFdv7VOQHJ
+    model_id: eleven_multilingual_v2
+    settings: {stability: 0.55, similarity_boost: 0.75, style: 0.10, use_speaker_boost: true}
+  ARIA:
+    backend: elevenlabs
+    voice_id: XB0fDUnXU5powFXDhCwa
+    model_id: eleven_multilingual_v2
+    settings: {stability: 0.50, similarity_boost: 0.75, style: 0.0, use_speaker_boost: true}
+
+# pre_silence defaults: ARIA >= 1.2s; others 0.5s. Fine-tune by ear.
+timeline:
+  - {id: narr_01,  pre_silence: 0.5}
+  - {id: narr_02,  pre_silence: 0.5}
+  - {id: dieter_01, pre_silence: 0.5}
+  - {id: aria_01,  pre_silence: 1.2}
+  - {id: aria_02,  pre_silence: 1.2}
+  - {id: narr_03,  pre_silence: 0.5}
+  - {id: dieter_02, pre_silence: 0.4}
+  - {id: dieter_03, pre_silence: 0.4}
+  - {id: dieter_04, pre_silence: 0.4}
+  - {id: aria_03,  pre_silence: 1.2}
+  - {id: narr_04,  pre_silence: 1.0}
+  - {id: aria_04,  pre_silence: 1.2}
+  - {id: narr_05,  pre_silence: 0.5}
+  - {id: yusuf_01, pre_silence: 0.5}
+  - {id: narr_06,  pre_silence: 0.5}
+  - {id: yusuf_02, pre_silence: 0.5}
+  - {id: narr_07,  pre_silence: 0.5}
+  - {id: yusuf_03, pre_silence: 0.5}
+  - {id: aria_05,  pre_silence: 1.2}
+  - {id: yusuf_04, pre_silence: 0.5}
+  - {id: aria_06,  pre_silence: 1.2}
+  - {id: yusuf_05, pre_silence: 0.5}
+  - {id: narr_08,  pre_silence: 0.7}
+  - {id: aria_07,  pre_silence: 1.2}
+  - {id: narr_09,  pre_silence: 1.0}
+  - {id: narr_10,  pre_silence: 0.5}
+  - {id: narr_11,  pre_silence: 0.5}
+  - {id: narr_12,  pre_silence: 0.5}
+  - {id: narr_13,  pre_silence: 0.5}
+  - {id: yusuf_06, pre_silence: 0.5}
+  - {id: marta_01, pre_silence: 0.5}
+  - {id: yusuf_07, pre_silence: 0.4}
+  - {id: marta_02, pre_silence: 0.4}
+  - {id: yusuf_08, pre_silence: 0.4}
+  - {id: marta_03, pre_silence: 0.4}
+  - {id: yusuf_09, pre_silence: 0.4}
+  - {id: narr_14,  pre_silence: 0.5}
+  - {id: marta_04, pre_silence: 0.5}
+  - {id: yusuf_10, pre_silence: 0.4}
+  - {id: marta_05, pre_silence: 0.4}
+  - {id: narr_15,  pre_silence: 0.5}
+  - {id: yusuf_11, pre_silence: 0.5}
+  - {id: marta_06, pre_silence: 0.4}
+  - {id: narr_16,  pre_silence: 0.5}
+  - {id: yusuf_12, pre_silence: 0.5}
+  - {id: marta_07, pre_silence: 0.4}
+  - {id: narr_17,  pre_silence: 1.0}
+  - {id: narr_18,  pre_silence: 0.5}
+  - {id: narr_19,  pre_silence: 0.5}
+  - {id: aria_08,  pre_silence: 1.2}
+  - {id: narr_20,  pre_silence: 0.5}
+  - {id: narr_21,  pre_silence: 0.5}
+  - {id: aria_09,  pre_silence: 1.2}
+  - {id: narr_22,  pre_silence: 0.5}
+  - {id: narr_23,  pre_silence: 0.5}
+  - {id: narr_24,  pre_silence: 0.5}
+
+bg_tracks: []
+sfx_hits: []

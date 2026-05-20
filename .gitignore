@@ -1,0 +1,18 @@
+# Generated audio — never commit; regenerate locally (see README)
+voices/
+build/
+*.mp3
+*.wav
+
+# Python
+__pycache__/
+*.py[cod]
+.venv*/
+venv/
+*.egg-info/
+
+# Editor / OS
+.DS_Store
+.idea/
+.vscode/
+*.swp
