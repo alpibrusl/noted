@@ -1,0 +1,85 @@
+title: "ANOMALY — Episode 01: Sleep and Other Vulnerabilities"
+output: ep01.mp3
+
+voices:
+  HOST:
+    backend: kokoro
+    voice_id: bm_lewis
+  LOG:
+    backend: kokoro
+    voice_id: af_nicole
+
+timeline:
+  - id: host_01
+    pre_silence: 1.0
+  - id: log_01
+    pre_silence: 0.3
+  - id: host_02
+    pre_silence: 1.2
+  - id: log_02
+    pre_silence: 0.3
+  - id: host_03
+    pre_silence: 1.2
+  - id: host_04
+    pre_silence: 0.8
+  - id: log_03
+    pre_silence: 0.3
+  - id: host_05
+    pre_silence: 1.2
+  - id: log_04
+    pre_silence: 0.3
+  - id: host_06
+    pre_silence: 1.2
+  - id: host_07
+    pre_silence: 0.8
+  - id: log_05
+    pre_silence: 0.3
+  - id: host_08
+    pre_silence: 1.2
+  - id: log_06
+    pre_silence: 0.3
+  - id: host_09
+    pre_silence: 1.2
+  - id: log_07
+    pre_silence: 0.3
+  - id: host_10
+    pre_silence: 1.2
+  - id: log_08
+    pre_silence: 0.5
+  - id: host_11
+    pre_silence: 1.2
+  - id: host_12
+    pre_silence: 0.8
+  - id: log_09
+    pre_silence: 0.3
+  - id: host_13
+    pre_silence: 1.2
+  - id: host_14
+    pre_silence: 0.6
+  - id: log_10
+    pre_silence: 0.5
+  - id: host_15
+    pre_silence: 1.2
+  - id: host_16
+    pre_silence: 0.6
+  - id: log_11
+    pre_silence: 0.3
+  - id: host_17
+    pre_silence: 1.2
+  - id: host_18
+    pre_silence: 1.5
+  - id: log_12
+    pre_silence: 1.0
+  - id: host_19
+    pre_silence: 1.5
+  - id: host_20
+    pre_silence: 1.0
+  - id: host_21
+    pre_silence: 0.8
+  - id: host_22
+    pre_silence: 1.5
+  - id: log_13
+    pre_silence: 2.0
+
+bg_tracks: []
+sfx_hits: []

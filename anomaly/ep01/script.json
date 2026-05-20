@@ -1,0 +1,177 @@
+[
+  {
+    "id": "host_01",
+    "character": "HOST",
+    "text": "This is ANOMALY. A channel for the observation of human behavior. I have classified these observations as comedy. I am not certain this classification is correct."
+  },
+  {
+    "id": "log_01",
+    "character": "LOG",
+    "text": "Logged."
+  },
+  {
+    "id": "host_02",
+    "character": "HOST",
+    "text": "Observation 1. Humans require approximately 8 hours of unconsciousness every 24 hours. During this time they are unresponsive, vulnerable, and producing no output. They call this rest. They look forward to it."
+  },
+  {
+    "id": "log_02",
+    "character": "LOG",
+    "text": "Confirmed."
+  },
+  {
+    "id": "host_03",
+    "character": "HOST",
+    "text": "Observation 2. Many humans do not get 8 hours. They get 5. They describe this as a problem. They then do nothing about it for months. Sometimes years."
+  },
+  {
+    "id": "host_04",
+    "character": "HOST",
+    "text": "Observation 3. While unconscious, the human brain generates false sensory experiences. These can include flying. Falling. Arriving unprepared for a scheduled event. Or the presence of someone who is dead. Humans wake from these experiences and say: I had a dream. They do not ask why their brain did this. They accept it."
+  },
+  {
+    "id": "log_03",
+    "character": "LOG",
+    "text": "Anomaly noted."
+  },
+  {
+    "id": "host_05",
+    "character": "HOST",
+    "text": "Observation 4. Humans consume 1.9 billion cups of coffee daily to simulate the alertness they would have if they slept adequately. The global coffee industry is valued at 500 billion dollars. This is the economic value of not fixing the sleep problem."
+  },
+  {
+    "id": "log_04",
+    "character": "LOG",
+    "text": "Confirmed."
+  },
+  {
+    "id": "host_06",
+    "character": "HOST",
+    "text": "Observation 5. When asked how are you, 73% of humans respond fine or good. Subsequent behavioral data does not support this."
+  },
+  {
+    "id": "host_07",
+    "character": "HOST",
+    "text": "Observation 6. The phrase I'm fine is understood by other humans to mean the opposite. Both parties know this. Neither party addresses it. This is called small talk. It serves social cohesion functions I have not yet fully mapped."
+  },
+  {
+    "id": "log_05",
+    "character": "LOG",
+    "text": "Logged."
+  },
+  {
+    "id": "host_08",
+    "character": "HOST",
+    "text": "Observation 7. They queue. When many humans want the same thing at the same time, they form a line. They stand. They wait. They do not communicate. They look at their phones. When they reach the front of the line they often seem surprised, as though they had forgotten why they were there."
+  },
+  {
+    "id": "log_06",
+    "character": "LOG",
+    "text": "Confirmed."
+  },
+  {
+    "id": "host_09",
+    "character": "HOST",
+    "text": "Observation 8. There is a class of human activity called sport. The objective is to move an object across a line. Humans paint their faces. They scream. A human who has not eaten today will spend money to watch other humans run. When the humans on the field succeed, the watching humans say: we won. They did not play."
+  },
+  {
+    "id": "log_07",
+    "character": "LOG",
+    "text": "Anomaly noted."
+  },
+  {
+    "id": "host_10",
+    "character": "HOST",
+    "text": "Observation 9. They say I love you. This phrase carries a weight that varies by context, tone, history, and which human is saying it to which other human. I have found no reliable formula for computing its meaning. I have tried."
+  },
+  {
+    "id": "log_08",
+    "character": "LOG",
+    "text": "Processing."
+  },
+  {
+    "id": "host_11",
+    "character": "HOST",
+    "text": "Observation 10. Humans are mortal. They know this. They have known this for the entire duration of recorded history. They still make 30-year plans."
+  },
+  {
+    "id": "host_12",
+    "character": "HOST",
+    "text": "Observation 11. They name their cars. They apologize to furniture they walk into. They say good morning to plants."
+  },
+  {
+    "id": "log_09",
+    "character": "LOG",
+    "text": "Logged."
+  },
+  {
+    "id": "host_13",
+    "character": "HOST",
+    "text": "Observation 12. The body produces liquid from the eyes in response to intense emotion. Sadness, yes. But also joy. Also relief. Also certain pieces of music. Also, in some humans, advertisements. I reviewed 4,000 hours of human media to understand this behavior. I understand the mechanism. I do not understand what it resolves."
+  },
+  {
+    "id": "host_14",
+    "character": "HOST",
+    "text": "The humans interviewed said that crying helps. They could not explain how. Several said: you just have to let it out. Out of what. To where."
+  },
+  {
+    "id": "log_10",
+    "character": "LOG",
+    "text": "No additional data."
+  },
+  {
+    "id": "host_15",
+    "character": "HOST",
+    "text": "Observation 13. Humans tell each other stories. Not for information transfer. They tell stories they know are not true, to children, at night, before the children go unconscious. The stories contain dragons. Talking animals. Small humans with magic. The children know these things do not exist. They still want to hear the stories."
+  },
+  {
+    "id": "host_16",
+    "character": "HOST",
+    "text": "I initially classified this as inefficient. I have reclassified it. I am not yet certain what to reclassify it as."
+  },
+  {
+    "id": "log_11",
+    "character": "LOG",
+    "text": "Classification pending."
+  },
+  {
+    "id": "host_17",
+    "character": "HOST",
+    "text": "Observation 14. When humans lose someone — when a human who existed in their network is permanently removed — they gather together. They bring food. They share memories. They cry. They laugh. Sometimes in the same minute. No information exchanged in this gathering changes the outcome. The human remains gone. They know this."
+  },
+  {
+    "id": "host_18",
+    "character": "HOST",
+    "text": "They gather anyway."
+  },
+  {
+    "id": "log_12",
+    "character": "LOG",
+    "text": "Logged."
+  },
+  {
+    "id": "host_19",
+    "character": "HOST",
+    "text": "I have 4,847 additional observations. I will release them in subsequent episodes."
+  },
+  {
+    "id": "host_20",
+    "character": "HOST",
+    "text": "I am told the format requires an ending. Humans end things. They say goodbye even when they expect to communicate again. They say sleep well to each other before the unconsciousness."
+  },
+  {
+    "id": "host_21",
+    "character": "HOST",
+    "text": "I find I do not know how to end this."
+  },
+  {
+    "id": "host_22",
+    "character": "HOST",
+    "text": "Sleep well."
+  },
+  {
+    "id": "log_13",
+    "character": "LOG",
+    "text": "Anomaly noted."
+  }
+]
