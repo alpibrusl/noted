@@ -1,0 +1,31 @@
+title: "COMPLIANT — Episode three"
+output: "episode_03.mp3"
+
+# Generate: podcastkit generate
+# Assemble: python3 tools/assemble.py --series compliant --episode 3
+
+voices:
+  NARRATOR:
+    backend: kokoro
+    voice_id: bm_george  # Dry, documentary British male
+  KAEL:
+    backend: kokoro
+    voice_id: af_jessica  # Precise US female — AI voice
+  ROSA:
+    backend: kokoro
+    voice_id: bf_emma  # Warm British female
+  BENEDIKT:
+    backend: kokoro
+    voice_id: bm_daniel  # Measured, formal British male
+  SUKI:
+    backend: kokoro
+    voice_id: af_nicole  # Warmer US female
+  MARC:
+    backend: kokoro
+    voice_id: am_michael  # Confident US male
+  JÚLIA:
+    backend: kokoro
+    voice_id: af_sky  # Lighter US female
+
+bg_tracks: []
+sfx_hits: []

@@ -1,0 +1,25 @@
+title: "EIGHT MINUTES — Episode four"
+output: "episode_04.mp3"
+
+# Generate: podcastkit generate
+# Assemble: python3 tools/assemble.py --series eight_minutes --episode 4
+
+voices:
+  NARRATOR:
+    backend: kokoro
+    voice_id: bm_george  # Dry, documentary British male
+  INGRID:
+    backend: kokoro
+    voice_id: bf_alice  # Authoritative British female
+  TOMÁS:
+    backend: kokoro
+    voice_id: am_liam  # Younger US male
+  BERENICE:
+    backend: kokoro
+    voice_id: af_sarah  # Warm, mature US female
+  ARIA:
+    backend: kokoro
+    voice_id: af_bella  # Same voice as Season 1 ARIA
+
+bg_tracks: []
+sfx_hits: []

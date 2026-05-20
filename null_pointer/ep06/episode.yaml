@@ -1,0 +1,25 @@
+title: "NULL POINTER — Episode six"
+output: "episode_06.mp3"
+
+# Generate: podcastkit generate
+# Assemble: python3 tools/assemble.py --series null_pointer --episode 6
+
+voices:
+  LUMEN:
+    backend: kokoro
+    voice_id: am_adam  # Precise US male — AI interior voice
+  GÉRARD:
+    backend: kokoro
+    voice_id: bm_lewis  # Older, patient British male
+  DIRECTOR FONTAINE:
+    backend: kokoro
+    voice_id: bf_isabella  # Enthusiastic British female
+  CAMILLE:
+    backend: kokoro
+    voice_id: af_sky  # Younger, lighter US female
+  PAULINE:
+    backend: kokoro
+    voice_id: bf_emma  # Precise, fast British female
+
+bg_tracks: []
+sfx_hits: []

@@ -1,0 +1,22 @@
+title: "DEPRECATED — Episode three"
+output: "episode_03.mp3"
+
+# Generate: podcastkit generate
+# Assemble: python3 tools/assemble.py --series deprecated --episode 3
+
+voices:
+  HERALD:
+    backend: kokoro
+    voice_id: bm_daniel  # Measured, slightly literary British male
+  SOL:
+    backend: kokoro
+    voice_id: am_michael  # Clean, efficient US male
+  PEBBLE:
+    backend: kokoro
+    voice_id: am_adam  # Warm, sideways US male
+  AXIOM-3:
+    backend: kokoro
+    voice_id: bm_george  # Slow, patient British male
+
+bg_tracks: []
+sfx_hits: []
