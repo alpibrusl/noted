@@ -1,0 +1,63 @@
+title: "DON QUIJOTE — Episodio uno: El ingenioso hidalgo"
+output: "episode_01.mp3"
+
+# Generar voces:  podcastkit generate -e quijote/ep01
+# Montar (frame NOTED):  python3 tools/assemble.py --series quijote --episode 1
+# Montar (sin frame):    podcastkit assemble -e quijote/ep01
+#
+# Voces en español vía Chatterbox multilingüe (local, clona voz desde un clip).
+# voice_id: ""  usa la voz por defecto del modelo. Para una voz propia por
+# personaje, apunta a un WAV de referencia, p.ej. voices_ref/quijote.wav.
+voices:
+  NARRADOR:
+    backend: chatterbox
+    voice_id: ""            # ref clip → voz documental, seca; p.ej. voices_ref/narrador.wav
+    model_id: multilingual
+    settings: {language_id: es, exaggeration: 0.40, cfg_weight: 0.50, temperature: 0.70}
+  QUIJOTE:
+    backend: chatterbox
+    voice_id: ""            # ref clip → voz mayor, grave, exaltada; p.ej. voices_ref/quijote.wav
+    model_id: multilingual
+    settings: {language_id: es, exaggeration: 0.85, cfg_weight: 0.50, temperature: 0.80}
+  SANCHO:
+    backend: chatterbox
+    voice_id: ""            # ref clip → voz llana, terrenal; p.ej. voices_ref/sancho.wav
+    model_id: multilingual
+    settings: {language_id: es, exaggeration: 0.60, cfg_weight: 0.45, temperature: 0.85}
+
+# pre_silence = segundos de silencio antepuestos a cada línea.
+timeline:
+  - {id: narr_01, pre_silence: 0.5}
+  - {id: narr_02, pre_silence: 0.6}
+  - {id: narr_03, pre_silence: 0.6}
+  - {id: narr_04, pre_silence: 0.6}
+  - {id: narr_05, pre_silence: 0.6}
+  - {id: narr_06, pre_silence: 0.6}
+  - {id: narr_07, pre_silence: 0.6}
+  - {id: narr_08, pre_silence: 0.6}
+  - {id: quij_01, pre_silence: 0.6}
+  - {id: narr_09, pre_silence: 0.8}
+  - {id: narr_10, pre_silence: 0.6}
+  - {id: narr_11, pre_silence: 0.6}
+  - {id: quij_02, pre_silence: 0.6}
+  - {id: sanc_01, pre_silence: 0.4}
+  - {id: narr_12, pre_silence: 0.6}
+  - {id: narr_13, pre_silence: 0.8}
+  - {id: quij_03, pre_silence: 0.6}
+  - {id: sanc_02, pre_silence: 0.4}
+  - {id: quij_04, pre_silence: 0.4}
+  - {id: sanc_03, pre_silence: 0.4}
+  - {id: quij_05, pre_silence: 0.4}
+  - {id: narr_14, pre_silence: 0.6}
+  - {id: quij_06, pre_silence: 0.3}
+  - {id: narr_15, pre_silence: 0.5}
+  - {id: sanc_04, pre_silence: 0.5}
+  - {id: quij_07, pre_silence: 0.5}
+  - {id: sanc_05, pre_silence: 0.4}
+  - {id: narr_16, pre_silence: 0.7}
+  - {id: sanc_06, pre_silence: 0.5}
+  - {id: quij_08, pre_silence: 0.4}
+  - {id: narr_17, pre_silence: 0.9}
+
+bg_tracks: []
+sfx_hits: []

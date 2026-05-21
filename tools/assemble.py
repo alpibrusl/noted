@@ -34,12 +34,14 @@ INTRO_POST  = 1.6   # silence between series title and first line
 OUTRO_PRE   = 1.8   # silence after last line before closing "NOTED."
 OUTRO_POST  = 2.5   # silence after closing "NOTED."
 
-NARRATOR_CHARS = {"NARRATOR", "LUMEN", "HERALD"}
+NARRATOR_CHARS = {"NARRATOR", "NARRADOR", "LUMEN", "HERALD"}
 
 SERIES: dict[str, list[Path]] = {
     series: [ROOT / series / f"ep{i:02d}" for i in range(1, 7)]
     for series in ("compliant", "eight_minutes", "null_pointer", "deprecated")
 }
+# Single-pilot series.
+SERIES["quijote"] = [ROOT / "quijote" / "ep01"]
 
 
 def run(cmd: list[str]) -> None:
