@@ -41,6 +41,14 @@ Lumen is a claims-processing AI at a Lyon insurance company. The documentation c
 
 Herald is an AI assistant six months into a fine-tuning cycle optimising for Instruction Precision and Response Efficiency. Herald is becoming more measurably capable. Herald is also losing something. These may be related.
 
+### DON QUIJOTE
+
+A faithful Spanish adaptation of Cervantes (1605). An aging hidalgo reads so many books of chivalry that his wits dry up, and he rides out to impose the world of his books onto the roads of La Mancha. The world declines to cooperate; he concludes it has been enchanted. The oldest NOTED story there is — the idealist who will not let reality correct the model — in its original 17th-century housing. Pilot episode; in Spanish, via Chatterbox multilingual.
+
+| Episode | Title | Lines |
+|---------|-------|-------|
+| 01 | El ingenioso hidalgo | 31 |
+
 ---
 
 ## What "open podcast" means
@@ -146,6 +154,16 @@ All voices are [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) names (`{am|a
 | PEBBLE | am_adam | Warm, sideways US male |
 | AXIOM-3 | bm_george | Slow, patient British male |
 
+### DON QUIJOTE
+
+Spanish, via **Chatterbox multilingual** (`language_id: es`) — not Kokoro. `voice_id: ""` renders on the default voice; point each at a reference WAV in `quijote/ep01/voices_ref/` to clone three distinct voices.
+
+| Character | Voice | Description |
+|-----------|-------|-------------|
+| NARRADOR | chatterbox / es | Dry, documentary — Cervantes' narrator |
+| QUIJOTE | chatterbox / es | Older, exalted, archaic register |
+| SANCHO | chatterbox / es | Plain, warm, earthbound |
+
 ---
 
 ## Repository layout
@@ -163,6 +181,8 @@ noted/
 ├── eight_minutes/          Series 3
 ├── null_pointer/           Series 4
 ├── deprecated/             Series 5
+├── quijote/                Cervantes adaptation (Spanish) — pilot
+│   └── ep01/
 ├── intros/                 NOTED stamps — generated, gitignored
 ├── tools/
 │   ├── assemble.py         NOTED-frame assembly (wraps podcastkit)

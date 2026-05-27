@@ -30,6 +30,7 @@ SERIES_TITLES = {
     "eight_minutes": "EIGHT MINUTES",
     "null_pointer":  "NULL POINTER",
     "deprecated":    "DEPRECATED",
+    "quijote":       "DON QUIJOTE",
 }
 
 _pipeline = None
