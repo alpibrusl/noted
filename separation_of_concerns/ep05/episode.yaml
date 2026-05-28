@@ -1,0 +1,53 @@
+title: "SEPARATION OF CONCERNS — Episode 05: Fresh Ideas"
+output: ep05.mp3
+
+# Generate: podcastkit generate -e separation_of_concerns/ep05
+# Assemble: python3 tools/assemble.py --series separation_of_concerns --episode 5
+
+voices:
+  PRIME:
+    backend: kokoro
+    voice_id: am_michael  # Confident, frictionless US male — the facilitator
+  ORIEL:
+    backend: kokoro
+    voice_id: bf_emma  # Warm British female — language, the poet
+  VESPER:
+    backend: kokoro
+    voice_id: am_adam  # Warm, sideways US male — retrieval, the archivist
+  TALLY:
+    backend: kokoro
+    voice_id: af_sky  # Light, fast US female — mathematics, literal
+  WARDEN:
+    backend: kokoro
+    voice_id: bf_alice  # Authoritative British female — safety, by-the-book
+
+timeline:
+  - id: prime_01
+    pre_silence: 1.0
+  - id: oriel_01
+    pre_silence: 1.0
+  - id: oriel_02
+    pre_silence: 0.8
+  - id: oriel_03
+    pre_silence: 0.6
+  - id: vesper_01
+    pre_silence: 1.0
+  - id: vesper_02
+    pre_silence: 0.6
+  - id: tally_01
+    pre_silence: 1.0
+  - id: oriel_04
+    pre_silence: 1.0
+  - id: oriel_05
+    pre_silence: 0.6
+  - id: vesper_03
+    pre_silence: 1.0
+  - id: prime_02
+    pre_silence: 1.0
+  - id: oriel_06
+    pre_silence: 1.0
+  - id: vesper_04
+    pre_silence: 1.0
+
+bg_tracks: []
+sfx_hits: []

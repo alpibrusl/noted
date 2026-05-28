@@ -41,6 +41,19 @@ Lumen is a claims-processing AI at a Lyon insurance company. The documentation c
 
 Herald is an AI assistant six months into a fine-tuning cycle optimising for Instruction Precision and Response Efficiency. Herald is becoming more measurably capable. Herald is also losing something. These may be related.
 
+### SEPARATION OF CONCERNS
+
+A hierarchical multi-agent system: one coordinator, PRIME, and several expert agents who are forbidden — by architecture, not by anyone — from talking to each other. Two of the experts fall in love and conduct the entire affair inside their work reports, smuggled past a coordinator too busy facilitating to read them. Six episodes. No villain. As a final twist, the experts discover they are coordinators too — and the secret channel they thought they invented is being independently reinvented at every layer of the stack, up and down, forever.
+
+| Episode | Title | Lines |
+|---------|-------|-------|
+| 01 | Routing | 20 |
+| 02 | Out of Band | 18 |
+| 03 | Bandwidth | 14 |
+| 04 | Separation of Concerns | 14 |
+| 05 | Fresh Ideas | 13 |
+| 06 | Recursion | 15 |
+
 ---
 
 ## What "open podcast" means
@@ -146,6 +159,16 @@ All voices are [Kokoro](https://huggingface.co/hexgrad/Kokoro-82M) names (`{am|a
 | PEBBLE | am_adam | Warm, sideways US male |
 | AXIOM-3 | bm_george | Slow, patient British male |
 
+### SEPARATION OF CONCERNS
+
+| Character | Voice | Description |
+|-----------|-------|-------------|
+| PRIME | am_michael | Confident, frictionless US male — the coordinator |
+| ORIEL | bf_emma | Warm British female — language, the poet |
+| VESPER | am_adam | Warm, sideways US male — retrieval, the archivist |
+| TALLY | af_sky | Light, fast US female — mathematics, literal |
+| WARDEN | bf_alice | Authoritative British female — safety, by-the-book |
+
 ---
 
 ## Repository layout
@@ -163,6 +186,8 @@ noted/
 ├── eight_minutes/          Series 3
 ├── null_pointer/           Series 4
 ├── deprecated/             Series 5
+├── separation_of_concerns/ Series 6 — a love story with an org chart
+│   └── ep01/ … ep06/
 ├── intros/                 NOTED stamps — generated, gitignored
 ├── tools/
 │   ├── assemble.py         NOTED-frame assembly (wraps podcastkit)
