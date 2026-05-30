@@ -26,10 +26,11 @@ VOICE = "bm_george"
 EP_WORDS = {1: "one", 2: "two", 3: "three", 4: "four", 5: "five", 6: "six"}
 
 SERIES_TITLES = {
-    "compliant":     "COMPLIANT",
-    "eight_minutes": "EIGHT MINUTES",
-    "null_pointer":  "NULL POINTER",
-    "deprecated":    "DEPRECATED",
+    "compliant":               "COMPLIANT",
+    "eight_minutes":           "EIGHT MINUTES",
+    "null_pointer":            "NULL POINTER",
+    "deprecated":              "DEPRECATED",
+    "separation_of_concerns":  "SEPARATION OF CONCERNS",
 }
 
 _pipeline = None

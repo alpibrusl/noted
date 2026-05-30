@@ -38,7 +38,7 @@ NARRATOR_CHARS = {"NARRATOR", "LUMEN", "HERALD"}
 
 SERIES: dict[str, list[Path]] = {
     series: [ROOT / series / f"ep{i:02d}" for i in range(1, 7)]
-    for series in ("compliant", "eight_minutes", "null_pointer", "deprecated")
+    for series in ("compliant", "eight_minutes", "null_pointer", "deprecated", "separation_of_concerns")
 }
 
 
